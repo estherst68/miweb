@@ -1,4 +1,4 @@
-const signupform = document.querySelector('#signupForm')
+const signupform = document.querySelector('#signupform')
 signupform.addEventListener('submit', (e)=>{
     e.preventDefault()
     const name = document.querySelector('#name').value
