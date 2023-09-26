@@ -1,0 +1,79 @@
+
+/*  -* formato para todos los elementos */
+
+* {
+    margin:0;
+    padding: 0;
+}
+/*  -* formato para todos los elementos body */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+   }
+/*  -* formato para todos los elementos section */
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    background: #2265b2;
+    z-index: 100;
+    position:fixed;
+    width: 100%;
+       
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 10px;
+    width:  500px;
+    color: #ffffff;
+}
+.menu a:link {
+        /*propietats dels links que formen part del contenidor menú*/
+        /*color el link*/
+        color: #ffffff;
+        /*que no aparegui la línia que per defecte apareix als links*/
+        text-decoration: none;
+}
+.menu a:visited{
+    color: #ffffff;
+}
+.menu a:hover{
+    color:aquamarine;
+}
+.logo{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:left;
+    margin: 10px;
+    
+}
+.logo img{
+    width: 75%;
+    height: 75%;
+}
+.email{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.email img{
+    width: 30px;
+    height: 30px;
+}
+.email a{
+    padding-left: 10px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    width: 175px;
+}
+.inicio img{
+    width: 30px;
+    height: 30px;
+}
+.inicio a{
+    padding-left: 10px;
+}

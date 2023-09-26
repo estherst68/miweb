@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <h2>Registro</h2>
+        <form id="registroform">
+            <label>Usuario</label> <!-- label - etiqueta campo formulario--> 
+            <input type="text" placeholder="Indica usuario" id="usuario" required autofocus> 
+            <label>Email</label> <!-- label - etiqueta campo formulario--> 
+            <input type="email" placeholder="Indica el correo electrónico" id="email" required > 
+                <!-- 
+                    <input type="email"> - formato campo para una dirección de correo electrónico
+                    placeholder - atributo especifica una breve sugerencia que describe el valor esperado de un campo de entrada (por ejemplo, un valor de muestra o una breve descripción del formato esperado) 
+                    required - atributo es un atributo booleano.Cuando está presente, especifica que se debe completar un campo de entrada antes de enviar el formulario.
+                    autofocus - atributo es un atributo booleano.Cuando está presente, especifica que un <input>elemento debe recibir atención automáticamente cuando se carga la página.
+                --> 
+            <label>Contraseña</label> 
+            <input type="password" placeholder="Indica la contraseña" id="contraseña" required > 
+                <!--
+                    <input type="password">un campo de contraseña (los caracteres están enmascarados)
+                -->
+            <input type="submit" value="Registrate">
+                <!--
+                    <input type="submit"> un botón de envío que envía todos los valores del formulario a un controlador de formulario.
+                    valueatributo se utiliza de forma diferente para distintos tipos de entrada:
+                        Para "botón", "restablecer" y "enviar": define el texto en el botón
+                        Para "texto", "contraseña" y "oculto": define el valor inicial (predeterminado) del campo de entrada
+                        Para "casilla de verificación", "radio", "imagen": define el valor asociado con la entrada (este también es el valor que se envía al enviar)
+                -->
+        </form>
+        <p>¿Ya Tienes una cuenta? <a href="inicio.html">Inicia sesión</a></p>
+    </section>
+    <script src="js/registro.js"></script>
+        
+    </section>
+</body>
+</html>
