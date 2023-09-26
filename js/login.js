@@ -1,5 +1,5 @@
-const loginForm = document.querySelector('#loginForm')
-loginForm.addEventListener('submit', (e)=>{
+const loginform = document.querySelector('#loginform')
+loginform.addEventListener('submit',(e)=>{
     e.preventDefault()
     const email = document.querySelector('#email').value
     const password = document.querySelector('#password').value
