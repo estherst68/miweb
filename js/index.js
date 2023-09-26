@@ -3,10 +3,10 @@ if(!user){
     window.location.href = 'inicio.html'
 }
 
-const inicio = document.querySelector('#inicio')
+const logout = document.querySelector('#inicio')
 
 inicio.addEventListener('click', ()=>{
     alert('Hasta pronto!')
-    localStorage.removeItem('inicio_success')
+    localStorage.removeItem('login_success')
     window.location.href = 'inicio.html'
 })
